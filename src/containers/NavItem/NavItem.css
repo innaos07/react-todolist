@@ -1,0 +1,22 @@
+.todo-nav__link,
+.active  {
+    display: block;
+    padding: 20px;
+ 
+    color: #5833aa;
+    text-decoration: none;
+}
+
+.todo-nav__link--active {
+    font-weight: 700;
+}
+
+.todo-nav__link:hover {
+    color: #a12eda;
+    transition: all 0.3s;
+}
+
+.todo-nav__link:active {
+    opacity: 0.5;
+    transition: all 0.3s;
+}

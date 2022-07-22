@@ -1,0 +1,61 @@
+.todo-list__form-edited {
+    width: 100%;
+}
+
+.todo-list__task-edited {
+    display: block;
+    box-sizing: border-box;
+    resize: none;
+    
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 5%;
+    border: 2px solid #784ed4;
+    border-radius: 5px  0  0 5px;
+
+    font: inherit;
+    font-size: 18px;
+}
+
+.todo-list__task-edited:focus {
+    outline: none;
+}
+
+.todo-list__btn-save {
+    top: 20px;
+    right: 60px; 
+
+    background-size: 120%;
+    background-position: 50% ;
+    background-image: url('../../img/todo-tick.svg');
+}
+
+.todo-list__btn-cancel {
+    top: 20px;
+    right: 25px;
+
+    background-size: 80%;
+    background-position: 50% ;
+    background-image: url('../../img/todo-cancel.svg');
+}
+ 
+.todo-list__btn-save:hover, 
+.todo-list__btn-cancel:hover{
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.todo-list__btn-save:active,
+.todo-list__btn-cancel:active {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+@media( min-width: 500px) {
+    .todo-list__task-edited {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

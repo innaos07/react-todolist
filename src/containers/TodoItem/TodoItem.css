@@ -1,0 +1,72 @@
+.todo-list__task {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    word-wrap: break-word;
+}
+
+.todo-list__task--completed {
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+.todo-list__btn--active,
+.todo-list__btn--complete {
+    top: 20px;
+    right: 100px;
+
+    border: 2px solid #c6bae3;
+    border-radius: 50%;
+}
+
+.todo-list__btn--complete::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: -10px;
+
+    width: 35px;
+    height: 35px;
+    background-image: url('../../img/todo-complete.svg');
+}
+
+.todo-list__btn-edit { 
+    top: 20px;
+    right: 60px;
+    
+    background-image: url('../../img/todo-edit.svg');
+    background-size: 120%;
+    background-position: 50% ;
+}
+
+.todo-list__btn-delete { 
+    top: 20px;
+    right: 30px;
+    
+    background-image: url('../../img/todo-delete.svg');
+}
+
+.todo-list__btn-edit:hover, 
+.todo-list__btn-delete:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.todo-list__btn-edit:active, 
+.todo-list__btn-delete:active {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+@media( min-width: 500px) {
+    .todo-list__task {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

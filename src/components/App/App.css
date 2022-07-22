@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #fff; 
+}
+
+.todo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    position: absolute;
+    box-sizing: border-box;
+    
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer; 
+}
+
+@media( min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
