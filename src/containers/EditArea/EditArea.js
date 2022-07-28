@@ -1,7 +1,7 @@
 import './EditArea.css'
-import {useState, useEffect, useRef} from 'react';
-import {saveTask, cancelTask} from '../../action';
-import {useDispatch} from 'react-redux';
+import { useState, useEffect, useRef } from 'react';
+import { saveTask, cancelTask } from '../../action';
+import { useDispatch } from 'react-redux';
 
 
 function EditArea({todo}) {

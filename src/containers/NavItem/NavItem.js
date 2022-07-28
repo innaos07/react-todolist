@@ -1,7 +1,7 @@
 import './NavItem.css';
 import {NavLink, useSearchParams} from 'react-router-dom';
-import {useDispatch} from 'react-redux';
-import {setVisibilityFilter} from '../../action';
+import { useDispatch } from 'react-redux';
+import { setVisibilityFilter } from '../../action';
 
 
 function NavItem({filter, children}) {

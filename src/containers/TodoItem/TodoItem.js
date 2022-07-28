@@ -1,6 +1,6 @@
 import './TodoItem.css';
-import {useDispatch} from 'react-redux';
-import {deleteTask, toggleTask, editTask} from '../../action';
+import { useDispatch } from 'react-redux';
+import { deleteTask, toggleTask, editTask } from '../../action';
 
 
 function TodoItem({todo}) {

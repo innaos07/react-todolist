@@ -1,4 +1,4 @@
-import {createSelector} from '@reduxjs/toolkit';
+import { createSelector } from '@reduxjs/toolkit';
 
 
 const getVisibilityFilter =(state)=> state.visibilityFilter;
@@ -10,15 +10,12 @@ export const getVisibleTodos = createSelector(
     (filter,  todos) => {
         switch (filter) {
             case 'SHOW_ALL':
-            console.log('all', filter, todos)
                 return todos;
 
             case 'SHOW_ACTIVE':
-            console.log('active', filter, todos)
                 return todos.filter((todo) => todo.active);
 
             case 'SHOW_COMPLETE':
-            console.log('COMPLETE', filter, todos)
                 return todos.filter((todo) => todo.complete);
 
             default: 

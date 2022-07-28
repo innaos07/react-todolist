@@ -1,7 +1,7 @@
 import './TodoList.css';
-import {useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
 import Todo from '../../components/Todo/Todo';
-import {getVisibleTodos} from '../../selectors';
+import { getVisibleTodos } from '../../selectors';
 
 
 function TodoList() {
