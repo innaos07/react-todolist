@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-todolist/static/css/main.72ad0594.css",
-    "main.js": "/react-todolist/static/js/main.1c56a6a0.js",
+    "main.js": "/react-todolist/static/js/main.9df65a7a.js",
     "static/media/todo-delete.svg": "/react-todolist/static/media/todo-delete.ab9ebfd35846ae177391.svg",
     "static/media/todo-cancel.svg": "/react-todolist/static/media/todo-cancel.d5152156f255ea3a15a8.svg",
     "index.html": "/react-todolist/index.html",
@@ -9,10 +9,10 @@
     "static/media/todo-tick.svg": "/react-todolist/static/media/todo-tick.20090568b8c9e48c6f49.svg",
     "static/media/todo-complete.svg": "/react-todolist/static/media/todo-complete.9d548af41b9125a6a7cb.svg",
     "main.72ad0594.css.map": "/react-todolist/static/css/main.72ad0594.css.map",
-    "main.1c56a6a0.js.map": "/react-todolist/static/js/main.1c56a6a0.js.map"
+    "main.9df65a7a.js.map": "/react-todolist/static/js/main.9df65a7a.js.map"
   },
   "entrypoints": [
     "static/css/main.72ad0594.css",
-    "static/js/main.1c56a6a0.js"
+    "static/js/main.9df65a7a.js"
   ]
 }
